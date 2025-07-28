@@ -129,28 +129,6 @@ The main objective is to develop a fully functional **pipeline from BIM to Robot
 - ✅ Stress-tested with various object sizes and positions
 - ✅ Handled edge cases: unreachable poses, collision paths
 
----
-
-## 💻 Repository Structure
-
-```bash
-bim_to_robotics/
-│
-├── ifc_parser/                 # Scripts to convert IFC to URDF/SDF
-├── urdf/                       # Robot description files
-├── sdf/                        # BIM-based environments
-├── src/
-│   ├── pick_place/             # ROS 2 node for pick-and-place
-│   ├── attach_detach/          # Services for Gazebo link control
-│   └── moveit_interface/       # Action clients and MoveGroup control
-├── launch/                     # Launch files for RViz, Gazebo, robot
-├── config/                     # RViz & MoveIt config
-├── gazebo_plugins/             # C++ plugins for attachment simulation
-├── meshes/                     # STL/DAE geometry converted from IFC
-└── README.md                   # Project documentation
-```
-
----
 
 ## 🧱 Challenges and Solutions
 
@@ -168,7 +146,7 @@ bim_to_robotics/
 
 > Videos and GIFs showcasing robot picking and placing BIM components in Gazebo and RViz (TBD)
 
----
+
 
 ## 📌 Conclusion
 
@@ -178,12 +156,7 @@ This project establishes a working prototype for integrating **BIM models into r
 
 ## 📬 Contact
 
-**Author:** [Your Name]  
-**Email:** [your.email@rwth-aachen.de]  
+**Author:** [Kintur raja]  
+**Email:** [kintur.raja@rwth-aachen.de]  
 **Institution:** RWTH Aachen University, Germany
 
----
-
-## 📄 License
-
-This repository is released under the MIT License. See `LICENSE` file for details.
